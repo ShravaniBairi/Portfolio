@@ -7,7 +7,7 @@ import JavaScriptLogo from "../assets/JavaScriptLogo.jpg"
 import PythonLogo from "../assets/PythonLogo.jpg"
 import ReactLogo from "../assets/ReactLogo.jpg"
 import TailwindCssLogo from "../assets/TailwindCssLogo.jpg"
-import App from "../App"
+
 
 const Skills = () => {
 
