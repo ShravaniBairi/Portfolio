@@ -55,10 +55,10 @@ const Contacts = () => {
     <div>
         <div className='flex flex-wrap justify-center pt-4'>
 
-<h1 className= " text-center font-serif text-blue-900 font-bold text-4xl" > Contact Me...  </h1>
+<h1 className= " text-center font-serif text-blue-900 font-bold sm:text-4xl text-3xl" > Contact Me...  </h1>
 <a href="#Profile" className="px-4 py-2 rounded-full shadow-md animate-pulse hover:animate-bounce bg-gradient-to-l from-blue-800 via-white to-blue-800 "> ↑ </a>
 </div>
-        <div className="  md:mx-40 px-10 flex justify-between flex-wrap m-6">
+        <div className="  md:mx-40 sm:px-10  flex justify-around flex-wrap sm:m-6 m-2">
             {
                 MediaDetails.map((card, index)=>{
                     return (

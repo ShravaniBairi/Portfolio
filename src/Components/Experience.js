@@ -72,7 +72,7 @@ const CompanyDetails = [
 
 const ExperienceCard= (item) => {
   return (
-    <div className="mx-5 md:mx-40 p-4  ">
+    <div className="sm:mx-5 mx-2 md:mx-40 sm:p-4 p-2 ">
       <div  className= " bg-blue-200 shadow-md rounded-lg p-5" >
       <div className="flex justify-between border-dotted border-b-4 border-white ">
         
@@ -139,8 +139,8 @@ const ExperienceCard= (item) => {
   return (
     <div>
 
-<div className='pt-20 flex flex-wrap justify-center'>
-          <h1 className= " text-center font-serif text-blue-900 font-bold text-4xl">Experience  </h1>
+<div className='pt-16 flex flex-wrap justify-center'>
+          <h1 className= " text-center font-serif text-blue-900 font-bold text-3xl sm:text-4xl">Experience  </h1>
           <a href="#Profile" className="px-4 py-2 rounded-full shadow-md animate-pulse hover:animate-bounce bg-gradient-to-r from-blue-800 via-white to-blue-800"> ↑ </a>
           </div>
       

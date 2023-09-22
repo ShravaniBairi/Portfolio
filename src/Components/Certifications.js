@@ -45,7 +45,7 @@ const Certifications = () => {
     <div>
         <div className='flex flex-wrap justify-center p-4'>
 
-<h1 className= " text-center font-serif text-blue-900 font-bold text-4xl" > Certifications  </h1>
+<h1 className= " text-center font-serif text-blue-900 font-bold  text-3xl sm:text-4xl" > Certifications  </h1>
 <a href="#Profile" className="px-4 py-2 rounded-full shadow-md animate-pulse hover:animate-bounce bg-gradient-to-l from-blue-800 via-white to-blue-800 "> ↑ </a>
 </div>
 
