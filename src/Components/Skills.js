@@ -49,7 +49,7 @@ const Skills = () => {
   const SkillCard = (skill) =>
   {
     return (
-      <div className="p-3  items-center">
+      <div className="p-2  items-center">
         <div className="h-20  w-20 ">
           <img className="  hover:p-1 bg-transparent hover:animate-pulse  shadow-md p-2 rounded-md mx-auto h-16 w-16" src= { skill.Icon } alt="SkillLogo"/>
           <h2 className= " text-center font-serif  font-bold text-md">{skill.Name}</h2>
@@ -61,7 +61,7 @@ const Skills = () => {
 
 
   return (
-    <div className = "   bg-gradient-to-r p-4 from-blue-400 via-blue-100 to-blue-400 ">
+    <div className = "   bg-gradient-to-r py-4 from-blue-400 via-blue-100 to-blue-400 ">
       
 
     <div className='flex flex-wrap justify-center'>
