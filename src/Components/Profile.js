@@ -3,7 +3,7 @@ import ProfileImg from "../assets/ProfileImg.jpg"
 
 const Profile = () => {
   return (
-    <div className="md:flex justify-between  bg-gradient-to-r  from-blue-400 via-blue-100 to-blue-400 ">
+    <div className="md:flex justify-between pt-4 bg-gradient-to-r  from-blue-400 via-blue-100 to-blue-400 ">
       <div >
         <div className="sm:max-xl:p-10 lg:py-8 ">
             <img className=" h-32  w-32  md:h-64  md:w-64 xl:h-68 xl:w-68 md:mt-8 md:mx-12  shadow-md rounded-full mx-auto " src={ProfileImg} alt="Profile" />
