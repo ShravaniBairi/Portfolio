@@ -139,8 +139,8 @@ const ExperienceCard= (item) => {
   return (
     <div>
 
-<div className='flex flex-wrap justify-center'>
-          <h1 className= " text-center font-serif text-blue-900 font-bold text-4xl">Experience</h1>
+<div className='pt-20 flex flex-wrap justify-center'>
+          <h1 className= " text-center font-serif text-blue-900 font-bold text-4xl">Experience  </h1>
           <a href="#Profile" className="px-4 py-2 rounded-full shadow-md animate-pulse hover:animate-bounce bg-gradient-to-r from-blue-800 via-white to-blue-800"> ↑ </a>
           </div>
       
