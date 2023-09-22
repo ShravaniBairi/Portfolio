@@ -49,12 +49,12 @@ const Certifications = () => {
 <a href="#Profile" className="px-4 py-2 rounded-full shadow-md animate-pulse hover:animate-bounce bg-gradient-to-l from-blue-800 via-white to-blue-800 "> ↑ </a>
 </div>
 
-<div className="mx-5 md:mx-44 rounded-lg p-4 bg-blue-100 ">
+<div  className="mx-5 md:mx-44 rounded-lg p-4 bg-blue-100 ">
 {
     
-      CertificationsList.map((skill) => { 
+      CertificationsList.map((skill, index ) => { 
       return(
-        <CertificationsCard {...skill} />
+        <CertificationsCard key={skill.Name} {...skill} />
 
       )})
 }

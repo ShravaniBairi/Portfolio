@@ -16,8 +16,8 @@ const ProjectCard =(ProjectsList ) =>
             <div>
                 <h1>During the Course of this Project</h1>
                 {
-                    ProjectsList.Implementations.map((item) => {
-                        return <li>{item}</li>
+                    ProjectsList.Implementations.map((item, index) => {
+                        return <li key={index +1}>{item}</li>
                     })
                 }
             </div>
@@ -25,7 +25,7 @@ const ProjectCard =(ProjectsList ) =>
             <ul className=' list-none flex flex-wrap  '>
 
                 {
-                    ProjectsList.Skills.map((item) => <li className="bg-slate-50 m-1 p-1 rounded-lg">{item}</li>)
+                    ProjectsList.Skills.map((item, index) => <li key={index+2} className="bg-slate-50 m-1 p-1 rounded-lg">{item}</li>)
                 }
             </ul>
             <div className="  xl:mx-80 md:mx-20 mt-5 flex justify-between">

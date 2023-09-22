@@ -92,10 +92,10 @@ const ExperienceCard= (item) => {
       <div>
 
       {
-      item.Summary.map((Challenge)=>
+      item.Summary.map((Challenge, index)=>
           {
             return(
-          <div>
+          <div key={index}>
             <span className="font-medium">{Challenge.Title}: </span> 
             <span>{Challenge.Discription}</span>
             </div>
@@ -108,16 +108,16 @@ const ExperienceCard= (item) => {
 
       <ul className=" list-none flex flex-wrap ">
         {
-          item.Technologies.map((skill)=><li className="bg-gradient-to-tl bg-p from-blue-300 to-blue-400 p-3 m-2 rounded-md">{skill}</li>)
+          item.Technologies.map((skill, index)=><li key={index} className="bg-gradient-to-tl bg-p from-blue-300 to-blue-400 p-3 m-2 rounded-md">{skill}</li>)
         }
       </ul>
       
       <ul className=" list-disc mx-4">
         {
-          item.Challenges.map((Challenge)=>
+          item.Challenges.map((Challenge, index)=>
           {
             return(
-          <li>
+          <li key={index}>
             <span className="font-medium">
             {Challenge?.Title}
             </span> <span>{Challenge?.Discription}</span>
@@ -151,7 +151,7 @@ const ExperienceCard= (item) => {
           <div className="bg-gradient-to-r from-blue-400 via-blue-100 to-blue-400 ">
           
           
-          <ExperienceCard {...item}/>
+          <ExperienceCard key={item.Name} {...item}/>
           </div>
 
         )

@@ -60,9 +60,9 @@ const Contacts = () => {
 </div>
         <div className="  md:mx-40 px-10 flex justify-between flex-wrap m-6">
             {
-                MediaDetails.map((card)=>{
+                MediaDetails.map((card, index)=>{
                     return (
-                        <ContactsCard {...card} />
+                        <ContactsCard key={index} {...card} />
                     )
                 })
 

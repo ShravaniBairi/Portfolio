@@ -176,7 +176,7 @@ const Projects = () => {
         return (
             <div>
                 {
-                    <ProjectCard {...Project} />
+                    <ProjectCard key={Project.Title} {...Project} />
                 }
             </div>
         )
