@@ -49,10 +49,10 @@ const Skills = () => {
   const SkillCard = (skill) =>
   {
     return (
-      <div className="p-2  items-center">
-        <div className="h-20  w-20 ">
+      <div className=" py-2 items-center">
+        <div className="h-20  w-16 ">
           <img className="  hover:p-1 bg-transparent hover:animate-pulse  shadow-md p-2 rounded-md mx-auto h-16 w-16" src= { skill.Icon } alt="SkillLogo"/>
-          <h2 className= " text-center font-serif  font-bold text-md">{skill.Name}</h2>
+          <h2 className= " text-center font-serif  font-bold  text-sm sm:text-md">{skill.Name}</h2>
         </div>
         
       </div>
