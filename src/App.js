@@ -16,9 +16,6 @@ function App() {
       <div id="Profile">
       <Profile  />
       </div>
-
-      
-
       <div>
 
       <div className="flex flex-wrap justify-center  xl:px-60 sm:px-10 sm:mx-10   px-4 ">

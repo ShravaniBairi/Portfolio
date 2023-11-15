@@ -7,15 +7,28 @@ const CompanyDetails = [
     Role: "Systems Engineer",
     Website: "https://www.infosys.com/",
     Duration:"July 2021 - June 2023",
-    Technologies: ["Reactjs", "Javascript", "JSX", "HTML5", "CSS", "react-router-dom", "TypeScript", "Bootstrap", "Github", "Tailwind CSS", "Responsive Design", "Redux Toolkit", "Webpack", "Parcel", "jira", "C", "Java", "C++", "Python", "Data Structures & Algorithms", "SDLC"],
+    Technologies: ["Reactjs", "Vue.js", "Javascript", "JSX", "HTML5", "CSS", "react-router-dom", "Java", "TypeScript", "Bootstrap", "Github", "Tailwind CSS", "Responsive Design", "Redux Toolkit", "Webpack", "Parcel", "jira", "C", "Java", "C++", "Python", "Data Structures & Algorithms", "SDLC"],
     Summary: [
       {
         Title:"Frontend Development",
-        Discription:"Proficient frontend developer with 2 years of experience specializing in crafting user-centric web interfaces. Demonstrated expertise in HTML, CSS, JavaScript, and modern frontend frameworks.",
+        Discription:"Worked on developing web components with proficiency in React.js, Vue.js, Angular, TypeScript, JavaScript, CSS, HTML, and Tailwind CSS with a strong emphasis on creating visually appealing and user-friendly applications.",
       }
     ],
    
     Challenges: [
+      
+      {
+        Title: "Dynamic UI Enhancement:",
+        Discription: "Leveraged Vue.js to transform static HTML and CSS web pages into dynamic, responsive interfaces, utilizing components for seamless updates and improved user interaction."
+      },
+      {
+        Title: "User-Focused Features:",
+        Discription: "Integrated Vue.js to implement multi-select filters, image carousels, and conditional rendering, enhancing the overall user experience with personalized content and interactive elements."
+      },
+      {
+        Title: "Data Persistence and Interaction:",
+        Discription: "Employed Vue.js along with localStorage and the fetch API to persist user preferences client-side and facilitate smooth reservation form submissions, ensuring a seamless and consistent user journey."
+      },
       {
         Title: "Cross-Browser Compatibility Mastery:",
         Discription: "Successfully addressed challenges to ensure consistent rendering and functionality across multiple browsers."
