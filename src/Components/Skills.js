@@ -7,7 +7,7 @@ import JavaScriptLogo from "../assets/JavaScriptLogo.jpg"
 import PythonLogo from "../assets/PythonLogo.jpg"
 import ReactLogo from "../assets/ReactLogo.jpg"
 import TailwindCssLogo from "../assets/TailwindCssLogo.jpg"
-import javaLogo from "../assets/JavaLogo.jpg"
+import javaLogo from "../assets/javaLogo.jpg"
 import Vuejs from "../assets/VueJs.jpg"
 
 
