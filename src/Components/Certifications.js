@@ -4,25 +4,43 @@ const Certifications = () => {
     const CertificationsList = [
         {
             Name:"introduction to programming using Python",
-            Lisence: "https://media.licdn.com/dms/image/C4D0BAQGexnfBxeEG-g/company-logo_100_100/0/1608039227697?e=1703721600&v=beta&t=kX67arGgslU6F06se18A55Zi0quLe1FIA1ETOgiNDWM",
+            Lisence: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShg2cCJSkb9VN78Tr2mQxrfVGArUdSLlOeIg&usqp=CAU",
             Link : "https://coursera.org/verify/JB89MH7LAZFX",
             LisenceName:"Coursera"
 
         },
         {
             Name:"React",
-            Lisence:"https://media.licdn.com/dms/image/C4D0BAQFd9H6cxFC3wQ/company-logo_100_100/0/1609757753431?e=1703721600&v=beta&t=gUhQi61igFiwTk3qyVsoXs2_v_iTkbRtKD2hfja9AN8",
+            Lisence:"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSrjLBguJLYnyDsiVUCBmSfpKTX4oV2Sj6OUHDN8ITNQTw6LxKv",
             LisenceName: "NamasteDev",
             Link : "https://courses.namastedev.com/learn/certificate/8359728-142240"
 
         },
         {
             Name:"JavaScript",
-            Lisence:"https://media.licdn.com/dms/image/C4D0BAQHYemd2p7TxeQ/company-logo_100_100/0/1673333565608?e=1703721600&v=beta&t=FIJO0vWmDu5zvPFoRoLq9Pp50CI-X3ke3435qxq25I8",
+            Lisence:"https://thesourcecode.academy/wp-content/uploads/2022/08/HackerRank2.png",
             LisenceName: "Hacker Rank",
             Link : "https://www.hackerrank.com/certificates/f9c6cca85e16"
 
         },
+        {
+            Name:"Meta Frontend Developer",
+            Lisence: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/1200px-Meta-Logo.png",
+            LisenceName: "Meta-COursera",
+            Link: "https://www.coursera.org/account/accomplishments/verify/SKU5RV234XZ6"
+        },
+        {
+            Name:"Meta Frontend Developer - JavaScript",
+            Lisence: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/1200px-Meta-Logo.png",
+            LisenceName: "Meta-COursera",
+            Link: "https://www.coursera.org/account/accomplishments/verify/HWMZ8X6T8CAT"
+        },
+        {
+            Name:"Meta Frontend Developer - Version Control",
+            Lisence: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/1200px-Meta-Logo.png",
+            LisenceName: "Meta-COursera",
+            Link: "https://www.coursera.org/account/accomplishments/verify/EB7UMN2KXLUT"
+        }
     ]
 
     const CertificationsCard =(card) => {
