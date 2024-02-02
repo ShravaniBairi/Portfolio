@@ -7,7 +7,7 @@ const CompanyDetails = [
     Role: "Systems Engineer",
     Website: "https://www.infosys.com/",
     Duration:"July 2021 - June 2023",
-    Technologies: ["Reactjs", "Vue.js", "Javascript", "JSX", "HTML5", "CSS", "react-router-dom", "Java", "TypeScript", "Bootstrap", "Github", "Tailwind CSS", "Responsive Design", "Redux Toolkit", "Webpack", "Parcel", "jira", "C", "Java", "C++", "Python", "Data Structures & Algorithms", "SDLC"],
+    Technologies: ["Reactjs",  "Javascript", "JSX", "HTML5", "CSS", "react-router-dom", "Java", "TypeScript", "Vue.js", "Bootstrap", "Github", "Tailwind CSS", "Responsive Design", "Webpack", "Parcel", "jira", "C", "Java", "C++", "Python", "Data Structures & Algorithms", "SDLC"],
     Summary: [
       {
         Title:"Frontend Development",
@@ -19,15 +19,15 @@ const CompanyDetails = [
       
       {
         Title: "Dynamic UI Enhancement:",
-        Discription: "Leveraged Vue.js to transform static HTML and CSS web pages into dynamic, responsive interfaces, utilizing components for seamless updates and improved user interaction."
+        Discription: "Leveraged React.js to transform static HTML and CSS web pages into dynamic, responsive interfaces, utilizing components for seamless updates and improved user interaction."
       },
       {
         Title: "User-Focused Features:",
-        Discription: "Integrated Vue.js to implement multi-select filters, image carousels, and conditional rendering, enhancing the overall user experience with personalized content and interactive elements."
+        Discription: "Integrated React.js to implement multi-select filters, image carousels, and conditional rendering, enhancing the overall user experience with personalized content and interactive elements."
       },
       {
         Title: "Data Persistence and Interaction:",
-        Discription: "Employed Vue.js along with localStorage and the fetch API to persist user preferences client-side and facilitate smooth reservation form submissions, ensuring a seamless and consistent user journey."
+        Discription: "Employed React.js along with localStorage and the fetch API to persist user preferences client-side and facilitate smooth reservation form submissions, ensuring a seamless and consistent user journey."
       },
       {
         Title: "Cross-Browser Compatibility Mastery:",
@@ -55,7 +55,7 @@ const CompanyDetails = [
     Role: "React Developer Trainee",
     Website: "https://www.NamasteDev.com",
     Duration:"June 2023 - sep 2023",
-    Technologies: ["Reactjs", "Javascript", "JSX", "HTML5", "CSS", "react-router-dom", "TypeScript", "Bootstrap", "Github", "Tailwind CSS", "Responsive Design", "Redux Toolkit", "Webpack", "Parcel", "jira", "C", "Java", "C++", "Python", "Data Structures & Algorithms", "SDLC"],
+    Technologies: ["Reactjs", "Javascript", "JSX", "HTML5", "CSS", "react-router-dom", "TypeScript", "Bootstrap", "Github", "Tailwind CSS", "Responsive Design", "Webpack", "Parcel", "jira", "C", "Java", "C++", "Python", "Data Structures & Algorithms", "SDLC"],
     Summary: [
       {
         Title:"Frontend Development",
