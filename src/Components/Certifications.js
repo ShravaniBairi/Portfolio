@@ -26,19 +26,19 @@ const Certifications = () => {
         {
             Name:"Meta Frontend Developer",
             Lisence: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/1200px-Meta-Logo.png",
-            LisenceName: "Meta-COursera",
+            LisenceName: "Meta-Coursera",
             Link: "https://www.coursera.org/account/accomplishments/verify/SKU5RV234XZ6"
         },
         {
             Name:"Meta Frontend Developer - JavaScript",
             Lisence: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/1200px-Meta-Logo.png",
-            LisenceName: "Meta-COursera",
+            LisenceName: "Meta-Coursera",
             Link: "https://www.coursera.org/account/accomplishments/verify/HWMZ8X6T8CAT"
         },
         {
             Name:"Meta Frontend Developer - Version Control",
             Lisence: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Meta-Logo.png/1200px-Meta-Logo.png",
-            LisenceName: "Meta-COursera",
+            LisenceName: "Meta-Coursera",
             Link: "https://www.coursera.org/account/accomplishments/verify/EB7UMN2KXLUT"
         }
     ]
