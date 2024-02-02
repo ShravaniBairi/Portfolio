@@ -7,7 +7,7 @@ const CompanyDetails = [
     Role: "Systems Engineer",
     Website: "https://www.infosys.com/",
     Duration:"July 2021 - June 2023",
-    Technologies: ["Reactjs",  "Javascript", "JSX", "HTML5", "CSS", "react-router-dom", "Java", "TypeScript", "Vue.js", "Bootstrap", "Github", "Tailwind CSS", "Responsive Design", "Webpack", "Parcel", "jira", "C", "Java", "C++", "Python", "Data Structures & Algorithms", "SDLC"],
+    Technologies: ["Reactjs",  "Javascript", "HTML5", "CSS", "react-router-dom", "Java", "TypeScript", "Vue.js", "Bootstrap", "Github",  "JSX", "Tailwind CSS", "Responsive Design", "Webpack", "Parcel", "jira", "C", "Java", "C++", "Python", "Data Structures & Algorithms", "SDLC"],
     Summary: [
       {
         Title:"Frontend Development",
