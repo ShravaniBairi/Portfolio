@@ -51,7 +51,7 @@ const Certifications = () => {
                 </div>
                 <div>
                     <h1> </h1>
-                    <a href={card?.Link} target="_blank" rel="noopener noreferrer"> {card?.Name} </a>
+                    <a className="font-bold" href={card?.Link} target="_blank" rel="noopener noreferrer"> {card?.Name} </a>
                     <div>Issued By: {card?.LisenceName}
                          
                     </div>
